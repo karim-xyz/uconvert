@@ -102,7 +102,7 @@ def volume(value: Annotated[float, typer.Argument()],
           result_unit: Annotated[str, typer.Argument()]
           ):
             if base_unit in volume_units and result_unit in volume_units:
-              r = (value*length_units[base_unit])*(1/length_units[result_unit])
+              r = (value*volume_units[base_unit])*(1/volume_units[result_unit])
               if str(r)[-2:] == ".0":
                 r = int(r)
               print(r)
