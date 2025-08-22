@@ -1,13 +1,13 @@
 # UConvert
 
 A simple, fast, and extensible command-line unit converter built with Python, Typer, and Rich.
-Convert between the most useful units with ease, directly from your Terminal ! 
+Convert between the most useful units with ease, directly from your Terminal.
 
 I built this app because I often get confused by American units like feet, inches, and gallons. Now I can quickly convert them to units I actually understand.
 
 ---
 
-## ✅ Features
+## Features
 
 Common length, area, mass, and volume units.
 
@@ -19,7 +19,7 @@ Easy to extend with new units.
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 Python 3.8+
 
@@ -34,7 +34,7 @@ pip3 install typer
 
 ---
 
-## 🚀 Usage
+## Usage
 
 Run the app
 ```bash
@@ -67,7 +67,7 @@ To see all commands:
 python3 main.py --help
 ```
 
-### 🔍 Supported Units
+### Supported Units
 ```bash
 python3 main.py units
 ```
