@@ -5,18 +5,6 @@ Convert between the most useful units with ease, directly from your Terminal.
 
 ---
 
-## Features
-
-Common length, area, mass, and volume units.
-
-Simple and user-friendly.
-
-Error handling for invalid units.
-
-Easy to extend with new units.
-
----
-
 ## Requirements
 
 Python 3.8+
