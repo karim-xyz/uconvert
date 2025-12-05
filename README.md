@@ -24,13 +24,13 @@ pip3 install typer
 
 ### Run the app
 ```bash
-python3 main.py [command] [value] [unit] [result-unit]
+python3 convert.py [command] [value] [unit] [result-unit]
 ```
 
 ### Examples:
 
 ```bash
-python3 main.py length 5 in cm
+python3 convert.py length 5 in cm
 ```
 Output:
 ```
@@ -38,7 +38,7 @@ Output:
 ```
 
 ```bash
-python3 main.py mass 5 kg lb
+python3 convert.py mass 5 kg lb
 ```
 Output:
 ```
@@ -47,12 +47,12 @@ Output:
 
 ### Check help 
 ```bash
-python3 main.py --help
+python3 convert.py --help
 ```
 
 ### Supported Units
 ```bash
-python3 main.py units
+python3 convert.py units
 ```
 
 ---
