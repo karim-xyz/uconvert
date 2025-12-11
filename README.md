@@ -3,6 +3,8 @@
 A simple command-line unit converter built with Python, Typer, and Rich.
 Convert between the most useful units with ease, directly from your Terminal.
 
+![usage example](usage-example.png)
+
 ---
 
 ## Requirements
